@@ -77,7 +77,7 @@ body:
       placeholder: ex. May 25, 2025 - merchant will go live in 1 week
 
   - type: textarea
-    id: org ID
+    id: orgID
     attributes:
       label: Organization ID (Optional)
       description: Org ID — Please put an org ID in your request
