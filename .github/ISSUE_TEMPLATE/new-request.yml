@@ -62,29 +62,23 @@ body:
       label: Priority
       description: How critical is this request?
       options:
-        - P0 - Critical (urgent or blocking)
-        - P1 - High (needs to be done this sprint)
-        - P2 - Medium/Low (can wait until next sprint or later)
+        - P0 - Critical
+        - P1 - High 
+        - P2 - Medium 
+        - P3 - Low 
     validations:
       required: true
-
-  - type: textarea
-    id: success-criteria
-    attributes:
-      label: Success Criteria
-      description: What does "done" look like? How will we know this is successful?
-      placeholder: ex. When the dashboard is live and being used to track adoption across merchants.
 
   - type: input
     id: due-date
     attributes:
       label: Preferred Due Date (if any)
-      description: Optional — let us know if you have a deadline.
-      placeholder: ex. May 25, 2025
+      description: Optional — let us know if you have a deadline and reason for urgent ones.
+      placeholder: ex. May 25, 2025 - merchant will go live in 1 week
 
   - type: textarea
-    id: job-stories
+    id: org ID
     attributes:
-      label: Job Stories (Optional)
-      description: Optional — Share any job stories that provide context to this request (e.g., "As a user, I want to view the QR adoption trend to track merchant performance").
-      placeholder: ex. "As a merchant, I want to filter transactions by payment method to focus on QR Ph metrics."
+      label: Organization ID (Optional)
+      description: Org ID — Please put an org ID in your request
+      placeholder: ex. "org_XXX"
