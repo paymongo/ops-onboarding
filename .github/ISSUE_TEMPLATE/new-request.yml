@@ -23,14 +23,16 @@ body:
       label: Request Type
       description: What type of request is this?
       options:
-        - New Dashboard
-        - Dashboard Migration
-        - Dashboard Enhancement
-        - Dashboard for Searching/Investigative Use
-        - Dashboard Debugging/Troubleshooting
-        - New Metric/KPI Definition
-        - One-Time Analysis or Report
-        - Ad Hoc Data Extraction
+        - Activation Follow-up
+        - Provider Onboarding Follow-up
+        - Request Provider Onboarding Configuration
+        - Change Card Configured
+        - Payout on hold
+        - Adding a website
+        - Bank Account Change / Secretary Certificate submission
+        - Generic Query
+        - Refresh / Re-KYC Request
+        - Declined or Dormant Account
         - Others (please specify in the description)
     validations:
       required: true
