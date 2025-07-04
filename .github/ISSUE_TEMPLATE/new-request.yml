@@ -1,7 +1,7 @@
 name: 📝 Onboarding New Request Form
 description: Submit a new onboarding request from another team.
-title: "[Request] <Add a short descriptive title here>"
-labels: [request, needs-triage]
+title: "<Add a short descriptive title here>"
+labels: [needs-triage]
 body:
   - type: markdown
     attributes:
